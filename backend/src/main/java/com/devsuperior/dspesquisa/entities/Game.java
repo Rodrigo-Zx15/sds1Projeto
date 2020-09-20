@@ -27,15 +27,19 @@ public class Game implements Serializable {
 	private String title;
 	private Platform platform;
 	//associacoes
+	
 	@ManyToOne
 	@JoinColumn(name = "genre_id")
 	private Genre genre;
 	
 	//Game proximo;
-
+	
+	
 	@OneToMany(mappedBy = "game")
 	private List<Record> records = new ArrayList<>();
-	
+	public Game() {
+		
+	}
 	public Game(Long id, String title, Platform platform, Genre genre) {
 		this.id = id;
 		this.title = title;

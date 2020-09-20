@@ -38,9 +38,9 @@ public class Genre implements Serializable {
 		this.id = id;
 		this.name = name;
 	}
-	public ListaGames getLista(ListaGames lista) {
+	/*public ListaGames getLista(ListaGames lista) {
 		return lista;
-	}
+	}*/
 	public Long getId() {
 		return id;
 	}
