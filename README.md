@@ -1,0 +1,3 @@
+# sds1Projeto
+Projeto da Semana Dev Superior 1ª Ed.
+[PROJETO SUSPENSO ATÉ EU SUPERAR A PREGUIÇA DE CONTINUAR ESSA BAGAÇA]
